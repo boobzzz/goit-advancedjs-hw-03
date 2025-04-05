@@ -6,7 +6,7 @@ import { renderGallery, hideGallery } from './js/render-functions.js';
 import { showSpinner, hideSpinner } from './js/spinner.js';
 import { showMessage } from './js/messages.js';
 
-const form = document.querySelector('.search-form');
+const form = document.querySelector('.form');
 const gallery = document.querySelector('.gallery');
 const lightbox = new SimpleLightbox('.gallery-link');
 

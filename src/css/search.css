@@ -4,12 +4,12 @@
   margin-top: 64px;
 }
 
-.search-form {
+.form {
   display: flex;
   gap: 8px;
 }
 
-.search-form input {
+.form input {
   padding: 8px 16px;
   width: 360px;
   height: 40px;
@@ -21,14 +21,14 @@
   outline: none;
   color: #2E2F42;
 }
-.search-form input:hover {
+.form input:hover {
   border-color: #000000;
 }
-.search-form input:active {
+.form input:active {
   border-color: #4E75FF;
 }
 
-.search-form button {
+.form button {
   width: 95px;
   height: 40px;
   font-family: "Montserrat", sans-serif;
@@ -41,6 +41,6 @@
   color: #fff;
   cursor: pointer;
 }
-.search-form button:hover {
+.form button:hover {
   background-color: #6C8CFF;
 }

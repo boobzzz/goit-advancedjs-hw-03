@@ -12,8 +12,18 @@
   </head>
   <body>
     <main>
-      <load src="./partials/search.html" />
-      <load src="./partials/gallery.html" />
+      <section class="search-section">
+        <form class="form">
+          <input type="text" name="query" placeholder="Search images..." autofocus />
+          <button type="submit">Search</button>
+        </form>
+      </section>
+      <section class="gallery-section">
+        <div class="loader-wrapper">
+          <span class="loader"></span>
+        </div>
+        <ul class="gallery"></ul>
+      </section>
     </main>
 
     <script type="module" src="./main.js"></script>
